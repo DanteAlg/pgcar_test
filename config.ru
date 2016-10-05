@@ -1,5 +1,6 @@
 require './config/environment'
 
-Dir.glob('./app/controllers/*.rb').each { |file| require file }
+require './app/controllers/application_controller'
+require './app/controllers/home_controller'
 
 map('/') { run HomeController }
