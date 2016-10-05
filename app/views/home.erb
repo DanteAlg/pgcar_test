@@ -1,1 +1,18 @@
-<h2><%= ENV['API_KEY']%></h2>
+<table>
+  <thead>
+    <tr>
+      <td>Avatar</td>
+      <td>Id</td>
+      <td>Nome</td>
+    </tr>
+  </thead>
+  <tbody>
+    <% @champions.each do |champion| %>
+      <tr>
+        <td><img src=<%= champion.image_url %>></td>
+        <td><%= champion.id %></td>
+        <td><%= champion.name %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
