@@ -1,0 +1,39 @@
+header {
+  background: #091120;
+  border-bottom: 1px solid #274275;
+  font-size: 20px;
+  padding: 20px 140px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.container {
+  background: #091120;
+  width: 1020px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.champion-content {
+  display: inline-block;
+  margin: 0 20px 20px 0;
+}
+
+.champion-content .champion-image {
+  display: block;
+}
+
+.champion-content a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
