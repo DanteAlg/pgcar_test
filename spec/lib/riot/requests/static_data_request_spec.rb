@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 RSpec.describe Riot::StaticDataRequest do
-  describe '#champions_data', vcr: true do
-    subject(:data) { described_class.champions_data('image') }
+  describe '#champions', vcr: true do
+    subject(:data) { described_class.champions('image') }
 
     it do
       expect(data.first).to eq([

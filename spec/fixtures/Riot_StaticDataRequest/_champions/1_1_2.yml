@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://br.api.pvp.net/api/lol/static-data/br/v1.2/champion?api_key=RGAPI-8e1221a4-6e71-4a42-88e8-d9d57b9d2d38&champData=image
+    uri: https://br.api.pvp.net/api/lol/static-data/br/v1.2/champion/?api_key=RGAPI-8e1221a4-6e71-4a42-88e8-d9d57b9d2d38&champData=image
     body:
       encoding: US-ASCII
       string: ''
@@ -27,11 +27,11 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 05 Oct 2016 00:19:07 GMT
+      - Wed, 05 Oct 2016 00:41:17 GMT
       Vary:
       - Accept-Encoding, User-Agent
       X-Newrelic-App-Data:
-      - PxQFWFFSDwQTVlhTBAcHX0YdFGQHBDcQUQxLA1tMXV1dORYzVBBGBxdCdhUSEVFRRRAEPhhQRw84HlpcDjpMEUQDTAtbFVBTRwRlTlMTb00SBxlTOkxbW1EJEQtYXxVKVB8GH1JIU1UCUw5bCgkYHwJJG1FVWFFXUgNSAlBXXgIFU1VAG1dWChdUaw==
+      - PxQFWFFSDwQTVlhTBAcHX0YdFGQHBDcQUQxLA1tMXV1dORYzVBBGBxdCdhUSEVFRRRAEPhhQRw84HlpcDjpMEUQDTAtbFVBTRwRlTlMTb00SBxlTOkxbW1EJEQtYX2tJRh0GHVJKU0wAWw1SDAENHh5UFUNSBwRQAg8BVFMCXAsFAFBaFR1RBwhCU24=
       Transfer-Encoding:
       - chunked
       Connection:
@@ -581,5 +581,5 @@ http_interactions:
         OiJHcmFnYXMucG5nIiwic3ByaXRlIjoiY2hhbXBpb24xLnBuZyIsImdyb3Vw
         IjoiY2hhbXBpb24iLCJ4IjoxNDQsInkiOjAsInciOjQ4LCJoIjo0OH19fX0=
     http_version: 
-  recorded_at: Wed, 05 Oct 2016 00:19:07 GMT
+  recorded_at: Wed, 05 Oct 2016 00:41:18 GMT
 recorded_with: VCR 3.0.3
