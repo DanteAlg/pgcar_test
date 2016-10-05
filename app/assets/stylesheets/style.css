@@ -21,6 +21,7 @@ body {
   width: 1020px;
   padding: 0 30px;
   margin: 0 auto;
+  min-height: 100%;
 }
 
 .champion-content {
@@ -28,7 +29,7 @@ body {
   margin: 0 20px 20px 0;
 }
 
-.champion-content .champion-image {
+.champion-image {
   display: block;
 }
 
@@ -36,4 +37,42 @@ body {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+.champion-infos {
+  margin-bottom: 30px;
+}
+
+.recommended-block {
+  background-color: #1a283f;
+  padding: 20px 35px;
+  margin-bottom: 40px;
+}
+
+.recommended-infos {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14;
+  color: #788aaa;
+  text-transform: uppercase;
+}
+
+.recommended-infos p {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.build-block {
+  display: inline-block;
+  margin: 0 30px 30px 0;
+}
+
+
+.build-block .items {
+  display: inline-table;
+  margin-right: 10px;
+}
+
+.build-block .items p {
+  display: block;
 }

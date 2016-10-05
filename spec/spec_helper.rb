@@ -2,6 +2,9 @@ ENV['RACK_ENV'] = 'test'
 
 require './config/environment'
 
+require './app/controllers/application_controller'
+require './app/controllers/champions_controller'
+
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/fixtures/'
   config.hook_into :webmock

@@ -1,0 +1,33 @@
+<div class='champion-page'>
+  <div class='champion-infos'>
+    <img class='champion-image' src=<%= @champion.image_url %>>
+    <h2><%= @champion.full_name %></h2>
+  </div>
+
+  <h3>Builds</h3>
+
+  <% @champion.recommended.each do |recommended| %>
+    <div class='recommended-block'>
+      <div class='recommended-infos'>
+        <p><%= recommended['title'] %></p>
+        <p><%= recommended['map'] %></p>
+        <p><%= recommended['mode'] %></p>
+      </div>
+
+      <div class='recommended-content'>
+        <% recommended['blocks'].each do |block| %>
+          <div class='build-block'>
+            <p><%= block['type'] %></p>
+
+            <div class='items'>
+              <% block['items'].each do |item| %>
+                <img src=<%= @champion.item_image_url(item['id']) %>>
+                <p><%= item['count'] %></p>
+              <% end %>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>
