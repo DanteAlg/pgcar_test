@@ -10,4 +10,5 @@ end
 require_relative 'riot/requests/client'
 require_relative 'riot/requests/static_data_request'
 
-
+# Models
+require_relative 'riot/models/champion'
