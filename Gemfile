@@ -4,6 +4,7 @@ ruby '2.3.1'
 
 gem 'rack'
 gem 'sinatra'
+gem 'sinatra-assetpack'
 gem 'httparty'
 gem 'json'
 
