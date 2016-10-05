@@ -8,6 +8,9 @@ gem 'httparty'
 gem 'json'
 
 group :test, :development do
+  gem 'byebug'
+  gem 'vcr'
+  gem 'webmock'
   gem 'dotenv'
   gem 'rspec'
   gem 'rack-test'
