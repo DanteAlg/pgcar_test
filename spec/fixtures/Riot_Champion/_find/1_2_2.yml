@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://br.api.pvp.net/api/lol/static-data/br/v1.2/champion/24?api_key=RGAPI-8e1221a4-6e71-4a42-88e8-d9d57b9d2d38&champData=image
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, PUT
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Wed, 05 Oct 2016 03:19:07 GMT
+      Vary:
+      - Accept-Encoding, User-Agent
+      X-Newrelic-App-Data:
+      - PxQFWFFSDwQTVlhTBAcHX0YdFGQHBDcQUQxLA1tMXV1dORYzVBBGBxdCdhUSEVFRRRAEPhhQRw84HlpcDjpMEUQDTAtbFVBTRwRlTlMTb00SBxlTOkxbW1EJEQtYX2tJDVUUH1JIU04ATAhbAQ4NBQpWFUwATRFXXQVVWQdbAAQHVVdbBQMHREhXV18RAz4=
+      Content-Length:
+      - '143'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6MjQsImtleSI6IkpheCIsIm5hbWUiOiJKYXgiLCJ0aXRsZSI6Im8g
+        R3LDo28tTWVzdHJlIGRhcyBBcm1hcyIsImltYWdlIjp7ImZ1bGwiOiJKYXgu
+        cG5nIiwic3ByaXRlIjoiY2hhbXBpb24xLnBuZyIsImdyb3VwIjoiY2hhbXBp
+        b24iLCJ4Ijo0OCwieSI6NDgsInciOjQ4LCJoIjo0OH19
+    http_version: 
+  recorded_at: Wed, 05 Oct 2016 03:19:07 GMT
+recorded_with: VCR 3.0.3

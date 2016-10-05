@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://br.api.pvp.net/api/lol/static-data/br/v1.2/item/1055?api_key=RGAPI-8e1221a4-6e71-4a42-88e8-d9d57b9d2d38&itemData=image
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, PUT
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Wed, 05 Oct 2016 03:28:44 GMT
+      Vary:
+      - Accept-Encoding, User-Agent
+      X-Newrelic-App-Data:
+      - PxQFWFFSDwQTVlhTBAcHX0YdFGQHBDcQUQxLA1tMXV1dORYzVBBGBxdCdhUSEVFRRRAEPhhQRw84HlpcDjpMEUQDTAtbFVBTRwRlTlMTb00SBxlTOkxRR1UJPU1eVRVKVB8GH1JIU1MAVwxbDAANHh5UFUMBVVYAUVRWAF5WXlUHU1QEFR1RBwhCU24=
+      Content-Length:
+      - '221'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6MTA1NSwibmFtZSI6IkzDom1pbmEgZGUgRG9yYW4iLCJncm91cCI6
+        IkRvcmFuc0l0ZW1zIiwiZGVzY3JpcHRpb24iOiI8c3RhdHM+KzggZGUgRGFu
+        byBkZSBBdGFxdWU8YnI+KzgwIGRlIFZpZGE8YnI+KzMlIGRlIFJvdWJvIGRl
+        IFZpZGE8L3N0YXRzPiIsInBsYWludGV4dCI6IkJvbSBpdGVtIGluaWNpYW50
+        ZSBwYXJhIGF0YWNhbnRlcyIsImltYWdlIjp7ImZ1bGwiOiIxMDU1LnBuZyIs
+        InNwcml0ZSI6Iml0ZW0wLnBuZyIsImdyb3VwIjoiaXRlbSIsIngiOjk2LCJ5
+        Ijo5NiwidyI6NDgsImgiOjQ4fX0=
+    http_version: 
+  recorded_at: Wed, 05 Oct 2016 03:28:44 GMT
+recorded_with: VCR 3.0.3
