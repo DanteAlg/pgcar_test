@@ -10,9 +10,4 @@ class ChampionsController < ApplicationController
 
     erb :champion
   end
-
-  get '/champion/:id/recommended/:build' do
-    @champion = Riot::Champion.find(id: params[:id], champData: 'image')
-    erb :build
-  end
 end
